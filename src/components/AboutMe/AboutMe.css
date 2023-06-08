@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Raleway&display=swap");
+
+.timeline {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 5px;
+  padding: 5px;
+
+}
+.container {
+  background-color: transparent;
+}
+.cont {
+  margin: 25px 0px 25px 215px;
+}
+.about-me{
+  margin-top: 25px;
+}
+.education,
+.work {
+  border-left: 2px solid white;
+  padding-left: 5px;
+  margin-right: 2px;
+  margin-top: 10px;
+}
+
+.container:hover {
+  background-color: #598aaf65;
+  transition: 1s ease-in-out;
+}
+.info-item {
+  border-top: 1px solid #598aaf65;
+  margin: 5px;
+  padding: 3px;
+}
+.connnt {
+  height: 100%;
+  background: linear-gradient(
+    119deg,
+    rgba(0, 0, 0, 0.7203256302521008) 0%,
+    rgba(0, 5, 7, 0.8995973389355743) 26%,
+    rgba(0, 18, 26, 0.896796218487395) 70%,
+    rgba(0, 0, 0, 1) 100%,
+    rgba(0, 0, 0, 0.7203256302521008) 100%
+  );
+  color: #b3c4cb;
+  width: 100%;
+  margin-top: 40px;
+}
+h2 {
+  margin-top: 15px;
+  margin-left: 15px;
+  text-align: left;
+  font-family: raleway !important;
+}
+p {
+  margin: 15px 10px;
+}
+.guion {
+  font-size: 50px;
+  font-weight: bold;
+  color: #6aa3cf;
+  margin: 5px;
+}
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  .cont {
+    margin-left: 0;
+    padding: 50px 15px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .cont {
+    margin-left: 0;
+    padding: 50px 15px;
+  }
+  .timeline {
+    display: flex;
+    flex-direction: column;
+  }
+}

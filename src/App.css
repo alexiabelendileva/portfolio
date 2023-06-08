@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.App {
+
+  text-align: center;
+  font-family: 'Quicksand';
+}
+  ::-webkit-scrollbar-track {
+    background: #6494a7; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #263846; 
+    border-radius: 5px;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3a566b; 
+  }

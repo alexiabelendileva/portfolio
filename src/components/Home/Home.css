@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Raleway&display=swap');
+
+.content {
+  margin-left: 200px;
+  padding: 1px 0px;
+  display: flex;
+  height: auto;
+    
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: transparent;
+}
+.alexia{
+    color: #b3c4cb;
+    margin-right:  25px;
+    margin-left: 25px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-family: raleway;
+    text-align: center;
+    font-weight: bold;
+}
+.dev{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 200px;
+}
+@media screen and (min-width: 501px) and (max-width: 700px) {
+.content{
+    margin-left: 0 !important;
+}
+}
+@media screen and (max-width: 500px) {
+.content{
+    margin-left: 0 !important;
+}
+.info{
+    margin: 75px;
+
+}
+.alexia{
+    margin-left:  2px;
+    margin-right: 2px;
+    margin-top: 145px;
+    color: #b3c4cb;
+    font-size: 20px;
+}
+.dev{
+    font-size: 15px;
+    margin-left:  2px;
+    margin-right:  2px;
+    margin-top: 20px;
+    margin-bottom: 110px;
+}
+}

@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand";
+  ;
+}
+
+.fondo {
+  background-image: url('E:\BELEN\portfolio\portfolio\proyecto\src\assets\background-823673_1280 (2).png');
+  background-size: cover;
+  
+}
+/*0 side navigation menu */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #8bbed3;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: "Quicksand";
+}
+
+/* sidebar links */
+.sidebar a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.redes {
+  display: flex;
+  justify-content: center;
+}
+.redes a {
+  font-size: 45px;
+  color: #263846;
+}
+section{
+  display: flex;
+  justify-content: center;
+}
+.avatar{
+  height: 70px;
+  width: 70px;
+  background-image: url(E:\BELEN\portfolio\portfolio\proyecto\src\assets\84689539.jpg);
+  background-size: contain;
+  border-radius: 50px;
+}
+.redes :hover {
+  background-color: none !important;
+  border: none !important;
+}
+.github {
+  border-radius: 50px;
+}
+.github:hover {
+  border-radius: 50px;
+}
+.linkedin {
+  border-radius: 20px;
+}
+.linkedin:hover {
+  border-radius: 20px;
+}
+/* links on mouse over */
+.sidebar a:hover {
+  background-color: #306e88;
+  color: white;
+  border-left: 5px solid white;
+  box-shadow: -1px 7px 23px 200px rgba(0, 0, 0, 0.56);
+  -webkit-box-shadow: -1px 7px 23px 500px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: -1px 7px 23px 200px rgba(0, 0, 0, 0.56);
+  transition: 0.5s;
+  animation-duration: .5s;
+}
+.sidebar a .icon {
+  color: #263846;
+  font-size: 30px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #6494a7; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #263846; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3a566b; 
+}
+/* page content. the value of the margin-left property should match the value of the sidebar's width property */
+
+/*  screens less than 700px wide, sidebar into topbar */
+@media screen and (min-width: 501px) and (max-width: 700px) {
+ 
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .sidebar a {
+    width: 100%;
+    float: left;
+    text-align: center;
+    border-bottom: 5px solid;
+
+  }
+  .sidebar a:hover {
+    border-left: 0px;
+    border-bottom: 5px solid white;
+
+  }
+  .redes {
+    display: none;
+  }
+  .icon {
+    display: none;
+  }
+  .avatar{
+    display: none;
+  }
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 500px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    background-color: transparent;
+  }
+  .sidebar a {
+    display: none;
+    float: none;
+    /*display: flex;
+    justify-content: center*/
+  }
+  .redes {
+    display: none;
+  }
+  .icon {
+    display: none;
+  }
+  .avatar{
+    display: none;
+  }
+
+ 
+}
