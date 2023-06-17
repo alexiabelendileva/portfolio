@@ -13,12 +13,12 @@ function Card() {
         <p /*I like to learn from other people mentioning things that I can improve too on from what I've already done*/
         >
           Hi! I'm Belen, a self-taught, passionate about technology, learning,
-          art and design. One of my goals is to grow professionally with all my
+          art and design based in Argentina. One of my goals is to grow professionally with all my
           efforts as a Front-End Developer.
         </p>
         <p>
           I seek to be in constant training and put what I've learned into
-          practice.
+          practice. I mostly love working on the front-end using React and CSS.
         </p>
         <p>I'm responsible, empathetic, persevering, dedicated and curious.</p>
         <p>
