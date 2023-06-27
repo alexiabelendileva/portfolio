@@ -6,7 +6,7 @@
 }
 
 .fondo {
-  background-image: url('E:\BELEN\portfolio\portfolio\src\assets\background-823673_1280 (2).png');
+  background-image: url('../assets/background.png');
   background-size: cover;
   
 }
@@ -50,7 +50,7 @@ section{
 .avatar{
   height: 70px;
   width: 70px;
-  background-image: url('E:\BELEN\portfolio\portfolio\src\assets\avatar.jpg');
+  background-image: url('../assets/avatar.jpg');
   background-size: contain;
   border-radius: 50px;
 }

@@ -7,7 +7,7 @@ function Projects() {
     <div className="project">
       <div className="project-content">
         <a name="Projects"></a>
-        <h2>Projects</h2>
+        <h1 className="project-title">Projects</h1>
         <h1 className="guion">-</h1>
         <p>
           Hi! I'm Belen, a passionate about technology, learning, art and
